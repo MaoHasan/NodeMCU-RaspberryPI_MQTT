@@ -27,7 +27,7 @@ void setup()
     pinMode(ledPin, OUTPUT);
     pinMode(D6, OUTPUT);
     pinMode(D7, OUTPUT);
-    WiFi.begin("Orange", "mmahmood"); //WiFi connection
+    WiFi.begin("xx", "xxd"); //WiFi connection
 
     while (WiFi.status() != WL_CONNECTED)
     { //Wait for the WiFI connection completion
@@ -99,7 +99,7 @@ void loop()
 
         HTTPClient http;
 
-        http.begin("http://alainzoo.ae/api/v1/iot"); //Specify request destination
+        http.begin("xxx"); //Specify request destination
         http.addHeader("Content-Type", "application/json");     //Specify content-type header
         http.addHeader("Accept", "application/json");           //Specify Accept header, from postman fuck
 
