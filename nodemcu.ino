@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import requests
 global url
-url = "https://alainzoo.ae/api/v1/iot"
+url = "xxx"
 
 
 # The callback for when the client receives a CONNACK response from the server.
@@ -10,7 +10,7 @@ def on_connect(client, userdata, flags, rc):
 
     # Subscribing in on_connect() means that if we lose the connection and
     # reconnect then subscriptions will be renewed.
-    client.subscribe("/Exceed/iot")
+    client.subscribe("xx")
     
 
 # The callback for when a PUBLISH message is received from the server.
