@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import requests
 global url
-url = "https://alainzoo.ae/api/v1/iot"
+url = "xxx"
 
 
 # The callback for when the client receives a CONNACK response from the server.
